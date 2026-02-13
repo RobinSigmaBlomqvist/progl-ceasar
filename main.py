@@ -10,6 +10,5 @@ while run == True:
             nyposition = (position + nyckel) % len(alfabet)
             sak += alfabet[nyposition]
         else:
-            print("kys")
             sak += i
     print(sak)
